@@ -10,9 +10,9 @@ import time
 
 def displayIntro():
 	print('''You are in a land full of dragons. In front of you,
-	you see two caves. In one cave, the dragon is friendly
-	and will share his treasure with you. The other dragon
-	is greedy and hungry, and will eat you on sight.''')
+you see two caves. In one cave, the dragon is friendly
+and will share his treasure with you. The other dragon
+is greedy and hungry, and will eat you on sight.''')
 	print()
 
 def chooseCave():
@@ -29,7 +29,7 @@ def checkCave(chosenCave):
 	time.sleep(2)
 	print('It is dark and spooky...')
 	#sleep for 2 seconds
-	time.sleep(3)
+	time.sleep(2)
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
 	#sleep for 2 seconds
