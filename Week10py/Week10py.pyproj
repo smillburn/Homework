@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>25539726-b39d-46be-9f09-d7a32cc7b5fd</ProjectGuid>
+    <ProjectGuid>55f265e7-dcc1-4fc2-a921-442d1a17d6d4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Homework.py</StartupFile>
+    <StartupFile>Week10py.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Homework</Name>
-    <RootNamespace>Homework</RootNamespace>
+    <Name>Week10py</Name>
+    <RootNamespace>Week10py</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Homework.py" />
+    <Compile Include="Week10py.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
